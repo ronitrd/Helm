@@ -1,0 +1,11 @@
+  989  cat /etc/*release*
+  990  dpkg --print-architecture
+  991  wget https://get.helm.sh/helm-v3.13.1-linux-amd64.tar.gz
+  992  ls -ltr
+  993  tar -zxvf helm-v3.13.1-linux-amd64.tar.gz 
+  994  mv linux-amd64/helm /usr/local/bin/helm
+  995  sudo mv linux-amd64/helm /usr/local/bin/helm
+  996  helm help
+  997  history 20
+  998  history 11
+  999  history 11 | tee Install_Helm.txt
